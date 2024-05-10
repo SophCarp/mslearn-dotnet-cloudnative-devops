@@ -1,3 +1,27 @@
+# Soph Notes
+
+Apps are deployed, but ot showing up. 
+Ingress traffic: Limited to Containerapps environment: maybe switching that will allow the site to be shown?
+
+Yes! Hell yeah!
+
+  "ingress": {
+                "fqdn": "store.orangebush-8214adc5.westus2.azurecontainerapps.io",
+                "external": true,
+                "targetPort": 8080,
+                "exposedPort": 0,
+            }
+
+
+
+Q: If I make an update in portal, then an update in the code and push it out, will changes be reversed?
+
+
+
+
+Q: Whats target port vs exposed port?? 
+
+
 # Deploy a cloud-native application automatically
 
 The code in this repository supports a Learn module focused on automating CI/CD with .NET. The module shows you how to:
